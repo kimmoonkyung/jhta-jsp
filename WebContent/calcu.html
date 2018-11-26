@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>계산기</title>
+</head>
+	<style>
+			input{
+				width:50px;
+				height: 50px;
+				margin: 5px;
+				/* margin-bottom: 5px;
+				margin-right: 5px; */
+			}
+			.zero{
+				width: 180px;
+			}
+			#result{
+				width: 245px;
+			}
+	</style>
+<body>
+	<form action="calcu" method="post">
+				<div>
+					<input id="result" type="text" value="결과 출력"/>
+					
+				</div>
+				<div>
+					<input type="button" value="CE" />
+					<input type="submit" value="C" />
+					<input type="button" value="≪" />
+					<input type="submit" value="÷" />
+				</div>
+				<div>
+					<input type="button" value="7" />
+					<input type="button" value="8" />
+					<input type="button" value="9" />
+					<input type="submit" value="×" />
+				</div>
+				<div>
+					<input type="button" value="4" />
+					<input type="button" value="5" />
+					<input type="button" value="6" />
+					<input type="submit" value="-" />
+				</div>
+				<div>
+					<input type="button" value="1" />
+					<input type="button" value="2" />
+					<input type="button" value="3" />
+					<input type="submit" value="+" />
+				</div>
+				<div>
+					<!-- <input type="button" value="±" /> -->
+					<input class="zero" type="button" value="0" />
+					<!-- <input type="button" style="font-weight: bold;" value="." /> -->
+					<input type="button" value="=" />
+				</div>
+
+	</form>
+</body>
+</html>
